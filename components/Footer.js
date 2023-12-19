@@ -4,6 +4,8 @@ import config from "@/config";
 import logo from "@/app/icon.png";
 
 
+const phoneNumber = '(192) 121-000-000'
+
 const Footer = () => {
     return (
         <footer className="bg-black text-white max-sm:mt-24 border-t border-base-content/10">
@@ -40,7 +42,7 @@ const Footer = () => {
 
                             <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                                 <Link href="/#contactus" className="link link-hover">
-                                    (192) 121-000-000
+                                    {phoneNumber}
                                 </Link>
                                 <Link href="/#email" className="link link-hover">
                                     abc@email.com
